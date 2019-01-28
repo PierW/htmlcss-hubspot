@@ -21,7 +21,7 @@ nav {
   height: 70px;
 }
 
-/* Inizio classi per template */
+/* Inizio classi generiche per template */
 .fix:after{
   content: "";
   display: table;
@@ -49,11 +49,17 @@ nav {
 .t-dark{
   color: black;
 }
-/* Fine classi per template */
+
+.n-text {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 13px;
+}
+/* Fine classi generiche per template */
 
 .tendina{
   line-height: 70px;
   padding: 0 5px;
+  cursor: pointer;
 }
 
 .navicon{
@@ -69,3 +75,36 @@ nav {
 .col-left > * {
   float: left;
 }
+
+hr{
+  border: none;
+  border-left: 1px solid black;
+  height: 30px;
+  width: 1px;
+  margin-top: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.fa-search{
+  color: #409fff;
+  font-size: 15px;
+}
+/* Inizio classi per bottoni */
+.button {
+  border: 1px solid #f7764f;
+  padding: 10px;
+  border-radius: 2px;
+  text-decoration: none;
+}
+.button.white{
+  margin: 0 10px;
+  background-color: white;
+  color: #f7764f;
+}
+
+.button.orange{
+  color: white;
+  background-color: #f7764f;
+}
+/* Finisco classi per bottoni */
