@@ -4,6 +4,10 @@
   padding: 0;
 }
 
+body{
+  background-color: #f5f8fa;
+}
+
 .cont-nav1{
 width: 100vw;
 height: 70px;
@@ -20,6 +24,10 @@ height: 70px;
 .container{
   width: 80%;
   margin: auto;
+}
+
+.container.small{
+  width: 60%;
 }
 
 #settings {
@@ -72,12 +80,26 @@ height: 70px;
   margin-bottom: 10px;
 }
 
+.subtitle-text {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
 .small-text{
   font-size: 10px;
 }
 
 .mtb-20{
   margin: 20px 0;
+}
+
+.pad40{
+  padding: 40px 0;
+}
+
+.picture{
+  width: 250px;
 }
 /* Fine classi generiche per template */
 
@@ -150,6 +172,7 @@ hr{
 #menu{
   width: 100vw;
   height: 80px;
+  background-color: white;
 }
 
 #main-menu{
