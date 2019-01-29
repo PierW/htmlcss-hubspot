@@ -166,6 +166,7 @@ height: 70px;
   color: white;
   background-color: #f7764f;
   border: 1px solid #f7764f;
+  margin-top: 10px;
 }
 
 .button.maxwhite{
@@ -313,4 +314,14 @@ height: 70px;
 .pilastro > h3{
   border-top: 1px solid #e0e6ed;
   padding-top: 30px;
+}
+
+ul{
+  list-style:none;
+  text-align: left;
+  list-style-image: url("https://cdn2.hubspot.net/hubfs/53/assets/hubspot.com/partners/images/Orange_Checkmark.svg");
+}
+
+li{
+  margin-bottom: 10px;
 }
