@@ -4,7 +4,12 @@
   padding: 0;
 }
 
-nav {
+.cont-nav1{
+width: 100vw;
+height: 70px;
+}
+
+#top-nav {
   width: 100vw;
   height: 70px;
   background-color: #f5f8fa;
@@ -17,7 +22,7 @@ nav {
   margin: auto;
 }
 
-#menu {
+#settings {
   height: 70px;
 }
 
@@ -54,11 +59,23 @@ nav {
   font-family: 'Montserrat', sans-serif;
   font-size: 13px;
 }
+
+.bb-text {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+}
 /* Fine classi generiche per template */
 
 .tendina{
   line-height: 70px;
   padding: 0 5px;
+  cursor: pointer;
+}
+
+.tendina.menu{
+  line-height: 80px;
+  padding: 0 15px;
   cursor: pointer;
 }
 
@@ -72,7 +89,7 @@ nav {
   height: 100%;
 }
 
-.col-left > * {
+#settings > .col-left > * {
   float: left;
 }
 
@@ -108,3 +125,26 @@ hr{
   background-color: #f7764f;
 }
 /* Finisco classi per bottoni */
+
+#menu{
+  width: 100vw;
+  height: 80px;
+}
+
+#main-menu{
+  height: 80px;
+}
+
+.logo{
+  width: 106px;
+  height: 100%;
+}
+
+.logo > img{
+  width: 100%;
+  height: 100%;
+}
+
+section{
+  background-color: #00a4bd;
+}
