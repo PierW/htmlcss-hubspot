@@ -66,7 +66,7 @@ height: 70px;
 }
 
 .t-dark{
-  color: #33475b;
+  color: #33475b !important;
 }
 
 .n-text {
@@ -170,9 +170,9 @@ height: 70px;
   margin-top: 10px;
 }
 
-.button.maxwhite{
-  background-color: white;
+.button.max{
   padding: 26px 48px;
+  border: none;
 }
 /* Finisco classi per bottoni */
 
@@ -343,12 +343,13 @@ li{
 
 .low-grid{
   margin: 40px 0;
+  width: 100%;
 }
 
 .minibox{
   float: left;
   width: 25%;
-  height: auto;
+  height: 200px;
   padding: 30px;
   border-bottom: 1px solid white;
   border-right: 1px solid white;
@@ -365,4 +366,62 @@ li{
 .log-minibox{
   height: 40px;
   margin-bottom: 20px;
+}
+
+.text-minibox{
+  height: auto;
+}
+
+.col-40{
+  width: 40%;
+}
+
+.col-60{
+  width: 60%;
+  height: auto;
+}
+
+.text-coustomer{
+  padding: 40px 100px;
+}
+
+.logo-coustomers{
+  float: left;
+  width: 25%;
+  height: 100px;
+  padding: 20px;
+}
+
+.logo-coustomers > img{
+  width: 100px;
+}
+
+.coustomer-box{
+  height: 300px;
+}
+
+.relative{
+  position: relative;
+  height: 100%;
+}
+
+.box-center{
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.prova {
+  margin-left: 150px;
+  width: 350px;
+  height: 350px;
+  text-align: center;
+  border-radius:  100%;
+  background-color: #f2547d;
+  overflow: hidden;
+}
+
+#img-donna{
+  width: 100%;
 }
