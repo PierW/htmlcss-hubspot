@@ -24,6 +24,7 @@ height: 70px;
 
 .container{
   width: 80%;
+  height: 100%;
   margin: auto;
 }
 
@@ -195,10 +196,13 @@ height: 70px;
   height: 100%;
 }
 
-.blue{
-  background-color: #00a4bd;
+.window{
   width: 100vw;
   height: 650px;
+}
+
+.blue{
+  background-color: #00a4bd;
 }
 
 .blue.hero{
@@ -324,4 +328,41 @@ ul{
 
 li{
   margin-bottom: 10px;
+}
+
+.responsive{
+  height: auto;
+}
+
+.top-grid{
+ padding: 50px 100px;
+ width: 80%;
+ height: auto;
+ margin: auto;
+}
+
+.low-grid{
+  margin: 40px 0;
+}
+
+.minibox{
+  float: left;
+  width: 25%;
+  height: auto;
+  padding: 30px;
+  border-bottom: 1px solid white;
+  border-right: 1px solid white;
+}
+
+.minibox:nth-of-type(4), .minibox:nth-of-type(8) {
+  border-right: 0;
+}
+
+.minibox:nth-of-type(n+5) {
+  border-bottom: 0;
+}
+
+.log-minibox{
+  height: 40px;
+  margin-bottom: 20px;
 }
