@@ -11,6 +11,7 @@ body{
 .cont-nav1{
 width: 100vw;
 height: 70px;
+max-width:100%;
 }
 
 #top-nav {
@@ -148,6 +149,7 @@ height: 70px;
 .fa-search{
   color: #409fff;
   font-size: 15px;
+  margin-right: 5px;
 }
 /* Inizio classi per bottoni */
 .button {
@@ -174,12 +176,18 @@ height: 70px;
   padding: 26px 48px;
   border: none;
 }
+
+.button.nobm{
+  border: 0;
+  margin: 0;
+}
 /* Finisco classi per bottoni */
 
 #menu{
   width: 100vw;
   height: 80px;
   background-color: white;
+  max-width:100%;
 }
 
 #main-menu{
@@ -199,6 +207,7 @@ height: 70px;
 .window{
   width: 100vw;
   height: 650px;
+  max-width:100%;
 }
 
 .blue{
@@ -320,8 +329,7 @@ height: 70px;
   padding-top: 30px;
 }
 
-ul{
-  list-style:none;
+.pilastro ul{
   text-align: left;
   list-style-image: url("https://cdn2.hubspot.net/hubfs/53/assets/hubspot.com/partners/images/Orange_Checkmark.svg");
 }
@@ -376,6 +384,10 @@ li{
   width: 40%;
 }
 
+.col-25{
+  width: 25%;
+}
+
 .col-60{
   width: 60%;
   height: auto;
@@ -413,7 +425,7 @@ li{
 }
 
 .prova {
-  margin-left: 150px;
+  margin-left: 200px;
   width: 350px;
   height: 350px;
   text-align: center;
@@ -424,4 +436,24 @@ li{
 
 #img-donna{
   width: 100%;
+}
+
+footer{
+  background-color: #33475b;
+}
+
+footer ul{
+  list-style: none;
+}
+
+footer .fab{
+  font-size: 20px;
+  margin-right: 20px;
+}
+
+.langue{
+  text-decoration: none;
+  color: #cbd6e2;
+  margin: 0 20px;
+  font-size: 15px;
 }
